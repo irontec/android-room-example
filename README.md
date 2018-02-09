@@ -1,13 +1,13 @@
-# room-android-example
+# android-room-example
 
-<img src="https://raw.githubusercontent.com/irontec/room-android-example/master/logo.png" width="200">
+<img src="https://raw.githubusercontent.com/irontec/android-room-example/master/logo.png" width="200">
 
 Basic app for showcasing the use of the [ROOM](https://developer.android.com/topic/libraries/architecture/room.html) Room Persistence Library on Android using [Kotlin](https://kotlinlang.org/) as main language.
 This app is only for educational purposes.
 
 ### License
 
-[EUPL v1.1](https://github.com/irontec/room-android-example/blob/master/LICENSE.txt)
+[EUPL v1.1](https://github.com/irontec/android-room-example/blob/master/LICENSE.txt)
 
 ```
 Copyright 2015 Irontec SL
