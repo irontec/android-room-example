@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RoomExample</string>
+    <string name="show_clients">Show customers</string>
+    <string name="show_bills">Show bills</string>
+    <string name="new_bill">Generate new bill</string>
+    <string name="show_providers">Show providers</string>
+    <string name="dialog_title">¿Who is the customer?</string>
+    <string name="dialog_hint">Amount</string>
+</resources>
