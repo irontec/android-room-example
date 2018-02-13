@@ -7,14 +7,14 @@ import android.arch.persistence.room.*
  */
 
 @Entity(foreignKeys =
-    arrayOf(
-            ForeignKey(
-                    entity = Customer::class,
-                    parentColumns = arrayOf("uid"),
-                    childColumns = arrayOf("customer_id"),
-                    onDelete = ForeignKey.CASCADE
-            )
-    ), indices = arrayOf(Index(value = "customer_id"))
+    [
+        ForeignKey(
+                entity = Customer::class,
+                parentColumns = arrayOf("uid"),
+                childColumns = arrayOf("customer_id"),
+                onDelete = ForeignKey.CASCADE
+        )
+    ], indices = [Index(value = "customer_id")]
 )
 class Bill constructor(amount: Int, customerId: Int) {
 
